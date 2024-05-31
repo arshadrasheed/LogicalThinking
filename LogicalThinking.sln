@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Fibonacci_Series_Program
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_PrimeNumber_Program", "03_PrimeNumber_Program\03_PrimeNumber_Program.csproj", "{875C4AEA-2CA3-4241-996E-051808C86CCC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PallindromeNumber_Program", "PallindromeNumber_Program\PallindromeNumber_Program.csproj", "{712F62DB-8BCC-4E36-9EA7-550CB30F9FBB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{875C4AEA-2CA3-4241-996E-051808C86CCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{875C4AEA-2CA3-4241-996E-051808C86CCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{875C4AEA-2CA3-4241-996E-051808C86CCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{712F62DB-8BCC-4E36-9EA7-550CB30F9FBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{712F62DB-8BCC-4E36-9EA7-550CB30F9FBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{712F62DB-8BCC-4E36-9EA7-550CB30F9FBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{712F62DB-8BCC-4E36-9EA7-550CB30F9FBB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

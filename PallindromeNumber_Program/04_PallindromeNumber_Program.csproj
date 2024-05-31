@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{712F62DB-8BCC-4E36-9EA7-550CB30F9FBB}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>PallindromeNumber_Program</RootNamespace>
-    <AssemblyName>PallindromeNumber_Program</AssemblyName>
+    <RootNamespace>_04_PallindromeNumber_Program</RootNamespace>
+    <AssemblyName>04_PallindromeNumber_Program</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

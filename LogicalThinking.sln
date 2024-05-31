@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Fibonacci_Series_Program
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_PrimeNumber_Program", "03_PrimeNumber_Program\03_PrimeNumber_Program.csproj", "{875C4AEA-2CA3-4241-996E-051808C86CCC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PallindromeNumber_Program", "PallindromeNumber_Program\PallindromeNumber_Program.csproj", "{712F62DB-8BCC-4E36-9EA7-550CB30F9FBB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_PallindromeNumber_Program", "PallindromeNumber_Program\04_PallindromeNumber_Program.csproj", "{712F62DB-8BCC-4E36-9EA7-550CB30F9FBB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -11,38 +11,29 @@ namespace _02_Fibonacci_Series_Program
     {
         static void Main(string[] args)
         {
-            Console.Write("Enter Number Count: ");
+            Console.Write("Enter Number: ");
             int nCount = Convert.ToInt32(Console.ReadLine());
 
-            int def_0 = 0;
-            int def_1 = 1;
+            int temp_0 = 0;
+            int temp_1 = 1;
 
-            int itt = 1;
-            int temp_01 = def_0;
-            int temp_02 = def_1;
+            List<int> fibonacciNumbers = new List<int>();
+            fibonacciNumbers.Add(temp_0);
+            fibonacciNumbers.Add(temp_1);
 
-            List<int> fibonacciNumber = new List<int>();
-
-            do
+            for (int i = 2; i < nCount; i++)
             {
-                int fibbNum = temp_01 + temp_02;
-                fibonacciNumber.Add(fibbNum);
+                int fibNum = temp_0 + temp_1;
+                
+                fibonacciNumbers.Add(fibNum);
 
-                temp_01= fibbNum;
+                temp_0=fibNum;
+                temp_1 = fibonacciNumbers[fibonacciNumbers.Count - 2];
+            }
 
-                if (itt > 1)
-                {
-                    temp_02 = fibonacciNumber[fibonacciNumber.Count - 2];
-                }
-
-                itt++;
-
-            } while (itt <= nCount - 2);
-
-            ///Display to User
-            foreach(int num in fibonacciNumber)
+            foreach (int  number in fibonacciNumbers)
             {
-                Console.Write($"{num} ");
+                Console.Write($"{number} ");
             }
 
             Console.ReadKey();
